@@ -1,0 +1,16 @@
+
+este mas que nada se usa para que puede generar tokens al momento de realizar el logueo correcto ,
+el token que devuelve se podra utilizar para autentica acciones
+jsonwebtoken --save
+
+
+Polyfill
+Para utilizar fetch() en un explorador no soportado, hay disponible un Fetch Polyfill que recrea la funcionalidad para navegadores no soportados.
+
+estos dos se instalan para usar codigo asincrono como es el caso de vue el asyn await o fetch que usa promesas 
+"@babel/plugin-transform-regenerator": "^7.10.4",
+    "@babel/polyfill":
+y en el .babelrc se le agrega esta linea de codigo para que pueda funcionar el codigo asincrono
+ "plugins": [
+    "@babel/plugin-transform-regenerator"
+]

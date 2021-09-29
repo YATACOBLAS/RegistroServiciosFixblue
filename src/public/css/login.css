@@ -1,0 +1,33 @@
+.md-form label {
+  color: #0074fc !important;
+}
+.md-form input[type="text"]:focus:not([readonly]),input[type="password"]:focus:not([readonly]) {
+  box-shadow: 0 1px 0 0 #0074fc !important;
+  border-bottom: 1px solid #0074fc !important;
+  color: white;
+}
+.md-form input[type="text"]:focus:not([readonly]) + label,input[type="password"]:focus:not([readonly]) + label {
+  color: #0074fc;
+}
+.md-form input[type="text"]:read-write,input[type="password"]:read-write {
+  color: white;
+  box-shadow: 0 1px 0 0 #0074fc !important;
+  border-bottom: 1px solid #0074fc !important;
+}
+.color-button {
+  background-color: #0074fc;
+}
+.color-button {
+  color: white;
+}
+.my-md-4 h2 {
+  color: #0074fc;
+}
+b {
+  font-weight: bold;
+}
+.tarjeta {
+  border-bottom: 5px solid #0074fc;
+}
+
+ 
